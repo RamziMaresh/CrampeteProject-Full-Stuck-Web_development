@@ -1,0 +1,422 @@
+
+
+/*------------------------------------------------------------------
+    SKELETON
+-------------------------------------------------------------------*/
+
+body {
+    color: #333333;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.7;
+}
+
+
+/*------------------------------------------------------------------
+    HEADER
+-------------------------------------------------------------------*/
+
+
+.top-navbar .navbar-expand-lg .navbar-nav{ /* */
+	background: #b35900;
+	border-radius: 5px;
+
+}
+
+
+.top-navbar .navbar-light .navbar-nav .nav-item{  /* */
+	position: relative;
+
+}
+.top-navbar .navbar-light .navbar-nav .nav-link{/* */
+	padding: 8px 20px;
+	color: #ffffff;
+	position: relative;
+}
+
+.top-navbar .navbar-light .navbar-nav .nav-item::before{ /* */
+	position: absolute;
+	content: '';
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 0%;
+	display: block;
+	opacity: 0;
+	border-radius: 5px;
+	background-color: #000000;
+	-webkit-transition: all 700ms ease;
+	-ms-transition: all 700ms ease;
+	-o-transition: all 700ms ease;
+	transition: all 700ms ease;
+}
+
+.top-navbar .navbar-light .navbar-nav .nav-item.active::before{ /* */
+	opacity: 1;
+	height: 100%;
+}
+
+.top-navbar .navbar-light .navbar-nav .nav-item:hover::before{ /* */
+	opacity: 1;
+	height: 100%;
+}
+
+.top-navbar .navbar-light .navbar-nav li .dropdown-menu{  /* */
+	box-shadow: 0 2px 12px 0 rgba(0,0,0,.12);
+	border: none;
+	border-radius: 5px;
+	margin: 0px;
+}
+
+.top-navbar.fixed-menu .bg-light{ /* */
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 9999;
+	visibility: visible;
+	transform: translate(0,0) scale(1);
+	transition: .3s;
+}
+
+/*
+input[type=text] {
+  width: 150px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  position: fixed;
+}
+
+input[type=text]:focus {
+  width: 100%;
+}
+
+
+.topnav a.active {
+  background-color: #2196F3;
+  color: white;
+}
+
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;
+  }
+}
+*/
+                             /* show some movies */
+.tittle-movie h3{
+  text-align:left;
+  font-weight: 900;
+  padding: 20px 0px 0px 6px;
+  width: 100%;
+  height: 0vh;
+}
+.tittle-movie p{
+  text-align: right;
+  margin: 0;
+  padding: 0px 0px 0px 6px;
+  width: 99%;
+  height: 3vh;
+
+}
+div.gallery {
+  border: 1px solid #ccc;
+
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+
+  padding: 6px 6px 6px 6px;
+  width: 33%;
+  display:inline-block;
+
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+                       /*End of show movie*/
+                       /* show some Events */
+.tittle-Events h3{
+text-align:left;
+font-weight: 900;
+padding: 20px 0px 0px 6px;
+width: 100%;
+height: 0vh;
+}
+.tittle-Events p{
+text-align: right;
+margin: 0;
+padding: 0px 0px 0px 6px;
+width: 99%;
+height: 3vh;
+
+}
+    /* End some Events*/
+
+    /* show some Playes */
+.tittle-Playes h3{
+text-align:left ;
+font-weight: 900;
+padding: 20px 0px 0px 6px;
+width: 100%;
+height: 0vh;
+}
+
+.tittle-Playes p{
+text-align: right;
+width: 99%;
+height: 3vh;
+margin: 0;
+
+}
+
+div.playes-images img{
+  height: 100%;
+  width: 99%;
+  padding: 15px 0px 0px 0px;
+}
+/* End some playes*/
+
+
+.message-box h4 { /* */
+    text-transform: uppercase;
+    padding: 3%;
+    margin: 0 0 5px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    font-size: 15px;
+    color: #999;
+}
+
+.message-box h2 {  /* */
+    font-size: 38px;
+    font-weight: 300;
+    padding: 0 0 10px;
+    margin: 0;
+    line-height: 62px;
+    margin-top: 0;
+    text-transform: none;
+}
+
+.message-box p {   /* */
+    margin-bottom: 20px;
+}
+
+.message-box .lead {
+    padding-top: 10px;
+    font-size: 19px;
+    font-style: italic;
+    color: #999;
+    padding-bottom: 0;
+}
+
+.page-info{
+	text-align: center;
+	margin-bottom: 20px;
+}
+.inner-container ul li{
+	display: inline-block;
+	color: #ffffff;
+}
+.inner-container ul li span{
+	background: #333333;
+	display: inline-block;
+	color: #ffffff;
+	padding: 5px 10px;
+}
+
+.inner-container ul li a{
+	background: #333333;
+	display: inline-block;
+	color: #ffffff;
+	padding: 5px 10px;
+}
+.inner-container ul li a:hover{
+	color: #ffffff;
+}
+
+/* css for search bar and sign in buttont*/
+.search-container input  {
+  float:right;
+  padding: 10px 10px 15px 0px;
+  width:auto;
+  height: 0vh;
+  margin-right: px;
+  margin-left: 20px;
+  border-radius: 5px;  color: black;
+  border: 2px solid #b35900;
+
+}
+
+
+.search-container button{
+  background: #b35900;
+	border-radius: 5px;  color: black;
+  border: 2px solid #d9d9d9;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 2px 5px;
+  color: #ffffff;
+
+}
+                       /* End css for search bar and sign in buttont*/
+
+/* css for menu top right*/
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  background: #b35900;
+	border-radius: 5px;  color: black;
+  border: 2px solid #d9d9d9;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 2px 9px;
+  color: #ffffff;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+                      /* End css for menu top right*/
+
+
+                      /*privacynote*/
+.privacynote{
+  text-align: left;
+  padding: 20px 0px 0px 6px;
+  margin-right: 21%;
+  margin-left: 20%;
+}
+
+.privacynote h6{
+  padding: 20px 0px 0px 6px;
+
+}
+
+.privacynote p{
+  padding: 0px 0px 0px 6px;
+
+}

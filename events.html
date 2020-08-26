@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Site CSS -->
+  <link rel="stylesheet" href="styletest.css">
+  <link rel="stylesheet" href="css/events.css">
+  <link rel="stylesheet" href="css/footer.css">
+  </head>
+  <body>
+    <!-- Start header -->
+  	<header class="top-navbar">
+  		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  			<div class="container">
+  				<a class="navbar-brand" href="indextest.html">
+  					<img src="images/Logo-sc2-removebg-preview.png" width="200px" />
+  				</a>
+  				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-seo" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
+  				  <span class="navbar-toggler-icon"></span>
+  				</button>
+  				<div class="collapse navbar-collapse" id="navbars-seo">
+  					<ul class="navbar-nav ml-auto">
+  						<li class="nav-item active"><a class="nav-link" href="indextest.html">Home</a></li>
+  						<li class="nav-item"><a class="nav-link" href="movie.html">Movies</a></li>
+  						<li class="nav-item"><a class="nav-link" href="events.html">Events</a></li>
+              <li class="nav-item"><a class="nav-link" href="playes.html">Playes</a></li>
+              <li class="nav-item"><a class="nav-link" href="contact.html">Sports</a></li>
+              <li class="nav-item"><a class="nav-link" href="activities.html">Activities</a></li>
+              <li class="nav-item"><a class="nav-link" href="movie.html">Monuments</a></li>
+  					</ul>
+          </div>
+  			</div>
+
+        <div class="topnav1">
+          <div class="search-container">
+            <form action="/action_page.php">
+              <input type="text" placeholder=" Search.." name="search">
+               <!--<button type="submit">Search</button> -->
+               <button>Sign in</button>
+
+            </form>
+          </div>
+        </div>
+
+        <div id="mySidebar" class="sidebar">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+          <a href="#">Option1</a>
+          <a href="#">Option2</a>
+          <a href="#">Option3</a>
+          <a href="#">Option4</a>
+        </div>
+
+        <div id="main">
+          <button class="openbtn" onclick="openNav()">☰ </button>
+
+        </div>
+
+
+  		</nav>
+  	</header>
+
+<!--  slider -->
+    <div id="demo" class="carousel slide" data-ride="carousel">
+      <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+      </ul>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://www.nfcp.my/Nfcp/media/Event/OFFICIAL-WEB-BANNER.jpg" alt="Los Angeles" >
+          <div class="carousel-caption">
+            <h3>Tittle</h3>
+            <p>Name and such details</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://www.nfcp.my/Nfcp/media/Event/OFFICIAL-WEB-BANNER.jpg" alt="Chicago" >
+          <div class="carousel-caption">
+            <h3>Tittle</h3>
+            <p>Name and such details</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://www.nfcp.my/Nfcp/media/Event/OFFICIAL-WEB-BANNER.jpg" alt="New York" >
+          <div class="carousel-caption">
+            <h3>Tittle</h3>
+            <p>Name and such details</p>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+    <!--  End slider -->
+
+
+  <div class="container">
+    <ul class="nav nav-tabs">
+      <h3><strong>Events</strong></h3>
+      <li class="active"><a data-toggle="tab" href="#home">All</a></li>
+      <li><a data-toggle="tab" href="#menu1">Talks</a></li>
+      <li><a data-toggle="tab" href="#menu2">Celebrity Wishes</a></li>
+      <li><a data-toggle="tab" href="#menu3">Meetups</a></li>
+      <li><a data-toggle="tab" href="#menu4">Kids</a></li>
+      <li><a data-toggle="tab" href="#menu5">Award Shows</a></li>
+      <li><a data-toggle="tab" href="#menu6">Performing Arts</a></li>
+      <li><a data-toggle="tab" href="#menu8">Workshop</a></li>
+      <li><a data-toggle="tab" href="#menu9">Comedy Shows</a></li>
+      <li><a data-toggle="tab" href="#menu10">Music Shows</a></li>
+    </ul>
+
+    <div class="tab-content">
+        <div id="home" class="tab-pane fade in active">
+
+
+          <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="img_forest.jpg">
+                <img src="https://www.almrsal.com/wp-content/uploads/2020/06/98978.jpg" alt="Forest" width="600" height="400">
+              </a>
+              <div class="desc">Add a description of the image here</div>
+            </div>
+          </div>
+
+          <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="img_5terre.jpg">
+                <img src="https://i.ytimg.com/vi/xw1vQgVaYNQ/maxresdefault.jpg" alt="Cinque Terre" width="600" height="400">
+              </a>
+              <div class="desc">Add a description of the image here</div>
+            </div>
+          </div>
+
+          <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="">
+                <img src="https://www.almrsal.com/wp-content/uploads/2020/06/98978.jpg" alt="Forest" width="600" height="400">
+              </a>
+              <div class="desc">Add a description of the image here</div>
+            </div>
+          </div>
+
+          <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="">
+                <img src="https://www.almrsal.com/wp-content/uploads/2020/06/98978.jpg" alt="Forest" width="600" height="400">
+              </a>
+              <div class="desc">Add a description of the image here</div>
+            </div>
+          </div>
+        </div>
+        <div id="menu1" class="tab-pane fade">
+          <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="">
+                <img src="https://www.almrsal.com/wp-content/uploads/2020/06/98978.jpg" alt="Forest" width="600" height="400">
+              </a>
+              <div class="desc">Add a description of the image here</div>
+            </div>
+          </div>
+          <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="img_5terre.jpg">
+                <img src="https://i.ytimg.com/vi/xw1vQgVaYNQ/maxresdefault.jpg" alt="Cinque Terre" width="600" height="400">
+              </a>
+              <div class="desc">Add a description of the image here</div>
+            </div>
+          </div>
+        </div>
+        <div id="menu2" class="tab-pane fade">
+          <h3>Menu 2</h3>
+          <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+        </div>
+        <div id="menu3" class="tab-pane fade">
+          <h3>Menu 3</h3>
+          <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+        </div>
+      </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+             <!--start with fotter -->
+  <footer class="flex-rw">
+
+    <ul class="footer-list-top">
+      <li>
+        <h4 class="footer-list-header">About </h4></li>
+      <li><a href='' class="generic-anchor footer-list-anchor" itemprop="significantLink">GET TO KNOW US</a></li>
+      <li><a href='' class="generic-anchor footer-list-anchor" itemprop="significantLink">NEWS</a></li>
+      <li><a href='' class="generic-anchor footer-list-anchor" itemprop="significantLink">INTRODUCTION</a></li>
+     <li><a href='' itemprop="significantLink" class="generic-anchor footer-list-anchor">GET STARTED</a></li>
+
+
+    </ul>
+    <ul class="footer-list-top">
+      <li>
+        <h4 class="footer-list-header">Site Map</h4></li>
+
+
+
+
+      <li><a href='registration.html' class="generic-anchor footer-list-anchor">Registration</a></li>
+      <li><a href='enrol.html' class="generic-anchor footer-list-anchor">Enroll into Class</a></li>
+      <li><a href='quiz.html' class="generic-anchor footer-list-anchor">Give Test</a></li>
+      <li><a href='View-report.html' class="generic-anchor footer-list-anchor">View progress Report</a></li>
+
+    </ul>
+    <ul class="footer-list-top">
+      <li id='help'>
+        <h4 class="footer-list-header"> Helpful Links </h4></li>
+      <li><a href='contact.html' class="generic-anchor footer-list-anchor" itemprop="significantLink">CONTACT</a></li>
+      <li id='Location.html'><a href='Location.html' class="generic-anchor footer-list-anchor" itemprop="significantLink">Location</a></li>
+      <li id='find-a-store'><a href='create-report.html' class="generic-anchor footer-list-anchor" itemprop="significantLink">Create progress Report</a></li>
+
+
+    </ul>
+    <section class="footer-social-section flex-rw">
+        <span class="footer-social-overlap footer-social-connect">
+        CONNECT <span class="footer-social-small">with</span> US
+        </span>
+        <span class="footer-social-overlap footer-social-icons-wrapper">
+        <a href="" class="generic-anchor" target="_blank" title="Pinterest" itemprop="significantLink"><i class="fa fa-pinterest"></i></a>
+        <a href="" class="generic-anchor" target="_blank" title="Facebook" itemprop="significantLink"><i class="fa fa-facebook"></i></a>
+        <a href="" class="generic-anchor" target="_blank" title="Twitter" itemprop="significantLink"><i class="fa fa-twitter"></i></a>
+        <a href="" class="generic-anchor" target="_blank" title="Instagram" itemprop="significantLink"><i class="fa fa-instagram"></i></a>
+        <a href="" class="generic-anchor" target="_blank" title="Youtube" itemprop="significantLink"><i class="fa fa-youtube"></i></a>
+        <a href="" class="generic-anchor" target="_blank" title="Google Plus" itemprop="significantLink"><i class="fa fa-google-plus"></i></a>
+        </span>
+    </section>
+    <section class="footer-bottom-section flex-rw">
+  <div class="footer-bottom-wrapper">
+  <i class="fa fa-copyright" role="copyright">
+
+  </i> MoviesTime Project for crampete course2020 <address class="footer-address" role="company address">IIUM Students</address><span class="footer-bottom-rights"> - All Rights Reserved - </span>
+      </div>
+      <div class="footer-bottom-wrapper">
+      <a  class="generic-anchor" rel="nofollow">Terms</a> | <a  class="generic-anchor" rel="nofollow">Privacy</a>
+        </div>
+    </section>
+  </footer>
+
+
+
+                     <!-- js for menue top right-->
+                     <script>
+                     function openNav() {
+                       document.getElementById("mySidebar").style.width = "150px";
+                       document.getElementById("main").style.marginLeft = "150px";
+                     }
+                     function closeNav() {
+                       document.getElementById("mySidebar").style.width = "0";
+                       document.getElementById("main").style.marginLeft= "0";
+                     }
+                     </script>
+
+    </body>
+</html>
